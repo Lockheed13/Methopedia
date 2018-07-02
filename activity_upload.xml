@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".upload"
+    tools:layout_editor_absoluteY="25dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageToUpload"
+            android:layout_width="match_parent"
+            android:layout_height="273dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="false" />
+        <EditText
+            android:id="@+id/etUploadName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bUploadImage"
+            android:text="Uplaod Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etDownloadName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. polynomials  2.general functions  3. set of n linear equations  4. graph of functions" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+
+    </LinearLayout>
+</ScrollView>
